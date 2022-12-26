@@ -1,0 +1,39 @@
+.sidebar {
+  width: 15%;
+  height: 93vh;
+  background-color: rgb(119, 47, 47);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  transform: translateX(0%);
+  transition: transform 5s;
+  transition: all 0.5s ease-in;
+}
+
+.collapse {
+  transform: translateX(-100%);
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 7px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.sidebar li:hover {
+  background-color: azure;
+  color: black;
+  cursor: pointer;
+}
+
+.sidebar li {
+  padding: 3px 30px;
+}
+
+/* .sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  justify-content: space-around;
+} */

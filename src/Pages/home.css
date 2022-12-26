@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.993);
+  height: 7vh;
+  color: white;
+}
+.body {
+  min-height: 89vh;
+}
+.footer {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.993);
+  height: 4vh;
+}
+
+.heading {
+  color: rgb(49, 119, 184);
+}
+
+.containerDesign {
+  min-height: 89vh;
+}
+
+.footerParagraph {
+  font-size: small;
+}
